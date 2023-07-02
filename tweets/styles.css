@@ -1,8 +1,12 @@
 
 body {
-  font-family: sans-serif;
-  font-size: 1.2em;
+  background-color: #E1E8ED;
+  color: #657786;
+  font-family: 'Noto Serif TC', sans-serif;
+  font-size: 1em;
 }
+
+
 #search-input {
   font-size: 1.5em;
   width: 100%;
@@ -113,16 +117,16 @@ body {
     color: white;
   }
   a {
-    color: #33ff00;
+    color: #1DA1F2;
     text-decoration: none;
   }
   a:hover {
-    color: #33ff00;
+    color: #1DA1F2;
     text-decoration: underline;
   }
   .tweet {
     background-color: black;
-    border: 1px solid gray; /*#33ff00;*/
+    border: 1px solid gray; /*#1DA1F2;*/
     border-radius: 5px;
   }
   .child {
@@ -140,13 +144,13 @@ body {
     color: white;
   }
   .tweet .favorite_count {
-    color: #33ff00;
+    color: #1DA1F2;
   }
   .tweet .retweet_count {
-    color: #33ff00;
+    color: #1DA1F2;
   }
   .tweet .created_at {
-    color: #33ff00;
+    color: #1DA1F2;
   }
 }
 #tabs {
